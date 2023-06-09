@@ -1,0 +1,247 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+  nav {
+    display: flex;
+    justify-content:start;
+    align-items: center;
+    background-color: rgb(240, 145, 240);
+    color: #fff;
+    position:relative ;
+    top: 0;
+    z-index: 5; 
+}
+
+.navbar-links {
+    width: 100%;
+    display: flex;
+    justify-content: space-between ;
+    font-size: 2.5rem;
+    list-style: none;
+}
+
+.navbar-links p {
+    cursor: pointer;
+    text-decoration: none;
+    color: #fff;
+    padding: 1rem;
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+
+#logo {
+    background-image: url(./images/les-restaurants-du-coeur-logo-vector.svg);
+    background-size: cover;
+    background-position: center;
+    width: 40vh;
+    height: 23vh;
+} 
+
+#contactUs {
+    display: flex;
+    justify-content: center;
+}
+
+header {
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url(./images/A9vincentnageotte_2021_09_taste_jeudi_MRN4865_aspect_ratio_1920.jpg);
+    width: 100%;
+    height: calc(100vh - 30vh);
+    background-size: cover;
+    background-position: center;
+}
+
+h1 {
+    font-size: 5rem;
+    color: #fff;
+    text-shadow: #000 10px 0 10px;
+    margin-bottom: 1rem;
+}
+
+.about {
+    font-size: 1.5rem;
+    display: flex;
+   justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 4rem;
+    color: #000;
+    margin: 0 15rem;
+}
+
+.about p {
+    font-size: 5rem;
+    color: #d361b1;
+    background: #FFFFFF;
+    padding-bottom: 2rem;
+    text-shadow: 2px 2px 0 #bcbcbc, 4px 4px 0 #9c9c9c;
+}
+
+section div {
+    width: 33.999%;
+    padding: 0 20px;
+}
+
+section {
+    margin-top: 2rem;
+    display: flex;
+}
+
+section h3 {
+    color: #d361b1;
+    font-size: 1.8rem;
+    padding: 30px 0;
+    text-align: center;
+}
+
+iframe {
+    width: 25rem;
+}
+
+#help img {
+    height: 60vh;
+}
+
+#motives span {
+    font-size: 2rem;
+}
+
+#motives p {
+    font-size: 1.2rem;
+}
+
+form {
+    font-size: 2rem;
+    padding-bottom: 2rem;
+    padding-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+
+form h2 {
+    margin-bottom: 3rem;
+}
+
+input {
+    margin: 16px;
+    padding: 8px;
+    border: 1px solid #333;
+    width: 22%;
+}
+
+#icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #757575;
+}
+
+a {
+    color: #aaaaaa;
+    transition: 0.2s;
+    font-size: 2rem;
+    text-decoration: none;
+    margin: 0 5px 0 5px;
+    color: #d361b1;
+}
+
+#topics {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+    padding: 0px 8px;
+}
+
+#footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#footer div {
+    width: 49.999%;
+}
+
+.formButton {
+    width:max-content;
+    color: #ffffff;
+    background-color: #000000;
+    margin: 16px 0;
+    padding: 8px 16px;
+    margin-left: 15px;
+}
+
+.formButton:hover {
+    cursor: pointer;
+    background-color: #cccccc;
+    color: #000000;
+    border: none;
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+#topics {
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    margin-bottom: 3rem;
+    padding-top: 2rem;
+    width: 100%;
+    color: #e112a3;
+}
+
+#cubes {
+    margin-top: 2rem;
+    padding: 0px 8px;
+    display: flex;
+    flex-direction: column;
+    /* width: 100%; */
+}
+
+.lines {
+    padding: 0 150px;
+    display: flex;
+    width: 100%;
+}
+
+.kubes {
+    padding: 0px 8px;
+    margin-bottom: 16px;
+    width: 33.999%;
+}
+
+.topicTitle {
+    font-size: 24px;
+    margin: 10px 0px;
+}
+
+.mainTopic {
+    opacity: 0.7;
+    margin: 15px 0px;
+    /* font-size: 15px; */
+}
+
+
+
+
+
